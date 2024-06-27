@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "RARRIT"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "![rarrit profile img](https://github.com/rarrit/modernJsTutorial/assets/94345781/2dc661c2-39a6-46bb-bb19-f63e8756bda1)"
   bio              : "안녕하세요 :P"
   location         : "Korea, Seoul"
   email            :
