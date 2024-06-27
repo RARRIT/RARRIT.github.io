@@ -1,5 +1,5 @@
 ---
-title: "[Git] 깃(Git) 다운로드 방법"
+title: "[Git] 깃(Git) 설치 방법"
 layout: single
 toc: true
 toc_label: "목차"
