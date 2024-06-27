@@ -16,7 +16,6 @@ sidebar_main: true
 
 * TOC
 {:toc}
-https://desktop.github.com/
 ## Git 설치 방법
 
 깃(Git)을 설치하는 방법은 사용하는 운영 체제(OS)마다 다르다.
