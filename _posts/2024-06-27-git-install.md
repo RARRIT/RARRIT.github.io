@@ -32,12 +32,7 @@ https://desktop.github.com/
 ![git-install-windows-img01](https://github.com/rarrit/modernJsTutorial/assets/94345781/789ffd73-fe67-4958-9ca3-1a6e17499848)
 4. 이후 `Override the default branch name for new repositories` 체크 후 Next
 ![git-install-windows-img02](https://github.com/rarrit/modernJsTutorial/assets/94345781/38be49e1-48a0-4447-8025-0a1ba4ae00b9)
-5. 깃을 설치 완료 후 폴더를 하나 만들고 터미널(윈도우 실행>powershell 입력)로 열어준다음 아래의 코드를 작성
-``` bash
-1. git config —global [user.email](http://user.email) “이메일”
-2. git config —global [user.name](http://user.name) “이름”
-```
-6. 계정이 잘 들어갔는지 확인하는 방법은 `git config --list` 을 입력하여 확인할 수 있다.
+
 
 ### 방법 02: GitHub Desktop 사용
 
