@@ -29,7 +29,15 @@ https://desktop.github.com/
 1. [https://git-scm.com/download/win](https://git-scm.com/download/win)웹사이트로 이동한다.
 2. Standalone Installer에서 32or64 bit 다운로드
 3 editor 체크 할 때 `visual studio code as Git’s default editor` 체크 후 Next
+![git-install-windows-img01](https://github.com/rarrit/modernJsTutorial/assets/94345781/789ffd73-fe67-4958-9ca3-1a6e17499848)
 4. 이후 `Override the default branch name for new repositories` 체크 후 Next
+![git-install-windows-img02](https://github.com/rarrit/modernJsTutorial/assets/94345781/38be49e1-48a0-4447-8025-0a1ba4ae00b9)
+5. 깃을 설치 완료 후 폴더를 하나 만들고 터미널(윈도우 실행>powershell 입력)로 열어준다음 아래의 코드를 작성
+``` bash
+1. git config —global [user.email](http://user.email) “이메일”
+2. git config —global [user.name](http://user.name) “이름”
+```
+6. 계정이 잘 들어갔는지 확인하는 방법은 `git config --list` 을 입력하여 확인할 수 있다.
 
 ### 방법 02: GitHub Desktop 사용
 
@@ -41,3 +49,6 @@ https://desktop.github.com/
 ## macOS 다운로드 방법
 
 ### 방법 01: Homebrew 사용
+1. 런치패드에서 터미널 검색 후 열어준다.
+2. [Homebrew](https://brew.sh/) 접속 후 설치 명령어를 터미널에 그대로 입력한다.
+3. homebrew 설치 되었으면 터미널에 brew install git 입력하면 git 설치 완료.
