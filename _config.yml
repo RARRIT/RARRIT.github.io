@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "RARRIT NOTE"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "RARRIT"
+name                     : "KIM MIN KYU"
 description              : "An amazing website."
 url                      : "https://rarrit.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
