@@ -1,5 +1,6 @@
 ---
 title: "[Git] 깃(Git) 설치 방법"
+date: 2024-06-27
 layout: single
 toc: true
 toc_label: "목차"
