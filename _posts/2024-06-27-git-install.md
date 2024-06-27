@@ -4,7 +4,7 @@ layout: single
 toc: true
 toc_label: "목차"
 toc_icon: "align-left"
-toc_sticky: false
+toc_sticky: true
 categories:
   - git
 tags:
