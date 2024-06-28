@@ -22,49 +22,45 @@ sidebar_main: true
 
 ### Git 사용법
 
-1. **설치 및 설정**
+1. **사용자 정보 설정**
+   ㅁㅁㅁ
     ```bash
-    # Git 설치 (OS에 따라 다름)
-    sudo apt-get install git       # Ubuntu
-    brew install git               # macOS
-    winget install --id Git.Git -e # Windows
-
     # 사용자 정보 설정
     git config --global user.name "Your Name"
     git config --global user.email "your.email@example.com"
     ```
 
-2. **저장소 초기화**
+3. **저장소 초기화**
     ```bash
     git init
     ```
 
-3. **원격 저장소 연결**
+4. **원격 저장소 연결**
     ```bash
     git remote add origin [원격 저장소 URL]
     ```
 
-4. **파일 추가 및 커밋**
+5. **파일 추가 및 커밋**
     ```bash
     git add [파일명]             # 파일 추가
     git add .                    # 모든 변경 파일 추가
     git commit -m "커밋 메시지"  # 커밋
     ```
 
-5. **브랜치 생성 및 전환**
+6. **브랜치 생성 및 전환**
     ```bash
     git branch [브랜치명]       # 브랜치 생성
     git checkout [브랜치명]     # 브랜치 전환
     git checkout -b [브랜치명]  # 브랜치 생성 후 전환
     ```
 
-6. **원격 저장소와의 동기화**
+7. **원격 저장소와의 동기화**
     ```bash
     git pull origin [브랜치명]  # 원격 저장소의 변경 내용 가져오기
     git push origin [브랜치명]  # 로컬 변경 내용 원격 저장소에 반영
     ```
 
-7. **브랜치 병합**
+8. **브랜치 병합**
     ```bash
     git checkout [기준 브랜치]  # 기준 브랜치로 전환
     git merge [병합할 브랜치]   # 병합
