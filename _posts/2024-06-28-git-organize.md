@@ -24,6 +24,7 @@ sidebar_main: true
 
 1. **사용자 정보 설정**
    - 깃을 처음 사용할 때 어떤 사람이 사용하는지 알 수 있게 사용자를 등록하도록 한다.
+
     ```bash
     # 사용자 정보 설정
     git config --global user.name "이름 입력"
@@ -39,18 +40,21 @@ sidebar_main: true
 
 2. **저장소 초기화**
    - git 에서 파일을 감시한다. 해당 폴더에서 .git 폴더가 보이지 않으면 [보기>표시>숨은파일] 체크해주면 보인다.
+   
     ```bash
     git init
     ```
 
 3. **원격 저장소 연결**
    - 연결할 원격 저장소 URL 을 입력한다.
+     
     ```bash
     git remote add origin 원격 저장소 URL
     ```
 
 4. **파일 추가 및 커밋**
    - 파일작업 후 변경된 내용을 확인하고 싶을 땐 `git status` 를 입력하여 확인 후 진행한다.
+     
     ```bash
     git add 파일명             # 파일 추가
     git add .                    # 모든 변경 파일 추가
