@@ -26,9 +26,9 @@ sidebar_main: true
 
 1. [https://git-scm.com/download/win](https://git-scm.com/download/win)웹사이트로 이동한다.
 2. Standalone Installer에서 32or64 bit 다운로드
-3 editor 체크 할 때 `visual studio code as Git’s default editor` 체크 후 Next
+3 editor 체크 할 때 `visual studio code as Git’s default editor` 체크 후 Next<br/>
 ![git-install-windows-img01](https://github.com/rarrit/modernJsTutorial/assets/94345781/789ffd73-fe67-4958-9ca3-1a6e17499848)
-4. 이후 `Override the default branch name for new repositories` 체크 후 Next
+4. 이후 `Override the default branch name for new repositories` 체크 후 Next<br/>
 ![git-install-windows-img02](https://github.com/rarrit/modernJsTutorial/assets/94345781/38be49e1-48a0-4447-8025-0a1ba4ae00b9)
 
 
