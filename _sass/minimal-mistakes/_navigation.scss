@@ -176,8 +176,9 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
-
+/*  background: $background-color;*/
+  background:#1c1c1e;
+  
   a {
     display: block;
     margin: 0 1rem;
