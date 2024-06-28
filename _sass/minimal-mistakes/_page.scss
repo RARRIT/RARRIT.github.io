@@ -115,6 +115,12 @@ body {
     font-size: 1em;
   }
 
+  li {
+    &::marker {
+      color:$mainColor;
+    }
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
