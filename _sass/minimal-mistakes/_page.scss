@@ -109,6 +109,9 @@ body {
   p,
   li,
   dl {
+    strong {
+      color: $mainColor;
+    }
     font-size: 1em;
   }
 
