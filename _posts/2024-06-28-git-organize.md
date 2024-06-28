@@ -49,7 +49,9 @@ git 에서 파일을 감시한다. 해당 폴더에서 .git 폴더가 보이지 
 연결할 원격 저장소 URL 을 입력한다.
      
     ```bash
-    git remote add origin 원격 저장소 URL
+    git remote add origin 원격 저장소 URL # 원격 저장소 연결
+    git remote rm origin 원격 저장소 URL  # 원격 저장소 삭제
+    git remote -v                        # 연결된 원격 저장소 확인
     ```
 
 4. **파일 추가 및 커밋**<br/>
@@ -57,6 +59,7 @@ git 에서 파일을 감시한다. 해당 폴더에서 .git 폴더가 보이지 
      
     ```bash
     git add 파일명                # 파일 추가
+    git add 파일명1 파일명2       # 특정 파일 추가
     git add .                    # 모든 변경 파일 추가
     git commit -m "커밋 메시지"   # 커밋
     ```
@@ -64,9 +67,7 @@ git 에서 파일을 감시한다. 해당 폴더에서 .git 폴더가 보이지 
 5. **브랜치 생성 및 전환**
     ```bash
     git branch 브랜치명       # 브랜치 생성
-    git checkout 브랜치명     # 브랜치 전환
-    git checkout -b 브랜치명  # 브랜치 생성 후 전환
-    git switch 브랜치명       # 2.23.0 도입된 새로운 명령어로 개인적으로 이것만 사용한다.
+    git checkout 브랜치명    제
     ```
 
 6. **원격 저장소와의 동기화**
@@ -85,7 +86,7 @@ git 에서 파일을 감시한다. 해당 폴더에서 .git 폴더가 보이지 
 
 - **로그 확인**: `git log`
 - **상태 확인**: `git status`
-- **파일 비교**: `git diff 파일명`
+- **파일 비교**: `git difftool 파일명`
 - **Stash 적용**: `git stash apply`
 - **Stash 목록 확인**: `git stash list`
 - **Stash 삭제**: `git stash drop`
