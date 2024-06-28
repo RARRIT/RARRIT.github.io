@@ -14,9 +14,6 @@ author_profile: true
 sidebar_main: true
 ---
 
-* TOC
-{:toc}
-
 ## Git 사용법 및 용어 정리
 
 ### Git 사용법
