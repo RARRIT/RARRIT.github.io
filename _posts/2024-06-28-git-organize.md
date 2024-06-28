@@ -11,6 +11,7 @@ categories:
 tags:
   - git
 author_profile: true
+sidebar_main: true
 ---
 
 * TOC
