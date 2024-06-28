@@ -9,10 +9,8 @@ toc_sticky: true
 categories:
   - git
 tags:
-  - common
   - git
 author_profile: true
-sidebar_main: true
 ---
 
 * TOC
