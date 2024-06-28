@@ -182,7 +182,7 @@
 
   @include breakpoint($large) {
     text-align: center;
-    margin: 10px auto 15px;
+    margin: 10px auto 15px !important;
     padding-bottom: 15px;
     border-bottom: 1px solid #626262;
   }
