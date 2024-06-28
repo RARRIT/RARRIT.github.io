@@ -11,6 +11,7 @@
   animation-delay: 0.15s;
   z-index: 20;
   box-shadow: .5px .5px 30px rgba(0,0,0,.3);
+  background: #202022;
 
   &__inner-wrap {
     @include clearfix;
