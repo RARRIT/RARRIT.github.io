@@ -73,6 +73,8 @@
 
 .sidebar__right {
   margin-bottom: 1em;
+  width: 100%;
+  height: auto;
 
   @include breakpoint($large) {
     position: absolute;
@@ -86,9 +88,9 @@
     &.sticky {
       @include clearfix();
       position: -webkit-sticky;
-      position: sticky;
-      top: 2em;
-      float: right;
+      position: relative;
+      top: auto;
+      float: left;
     }
   }
 
