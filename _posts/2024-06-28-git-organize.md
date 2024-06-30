@@ -47,7 +47,7 @@ git 에서 파일을 감시한다. 해당 폴더에서 .git 폴더가 보이지 
     ```bash
     git remote add origin 원격 저장소 URL # 원격 저장소 연결
     git remote rm origin 원격 저장소 URL  # 원격 저장소 삭제
-    git remote -v                        # 연결된 원격 저장소 확인
+    git remote -v                         # 연결된 원격 저장소 확인
     ```
 
 4. **파일 추가 및 커밋**<br/>
@@ -55,26 +55,26 @@ git 에서 파일을 감시한다. 해당 폴더에서 .git 폴더가 보이지 
      
     ```bash
     git add 파일명                # 파일 추가
-    git add 파일명1 파일명2       # 특정 파일 추가
-    git add .                    # 모든 변경 파일 추가
+    git add 파일명1 파일명2        # 특정 파일 추가
+    git add .                     # 모든 변경 파일 추가
     git commit -m "커밋 메시지"   # 커밋
     ```
 
 5. **브랜치 생성 및 전환**
     ```bash
     git branch 브랜치명       # 브랜치 생성
-    git checkout 브랜치명    제
+    git checkout 브랜치명    
     ```
 
 6. **원격 저장소와의 동기화**
     ```bash
-    git pull origin 브랜치명  # 원격 저장소의 변경 내용 가져오기
+    git pull origin 브랜치명   # 원격 저장소의 변경 내용 가져오기
     git push origin 브랜치명  # 로컬 변경 내용 원격 저장소에 반영
     ```
 
 7. **브랜치 병합**
     ```bash
-    git switch 기준 브랜치   # 기준 브랜치로 전환
+    git switch 기준 브랜치    # 기준 브랜치로 전환
     git merge 병합할 브랜치  # 병합
     ```
 
