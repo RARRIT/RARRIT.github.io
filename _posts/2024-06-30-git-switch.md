@@ -1,5 +1,5 @@
 ---
-title: "[Git] Checkout과 Git Switch의 차이점"
+title: "[Git] 깃(Git) Checkout과 Switch의 차이점"
 date: 2024-06-30
 layout: single
 toc: true
