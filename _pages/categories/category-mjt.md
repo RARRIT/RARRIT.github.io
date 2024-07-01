@@ -1,5 +1,5 @@
 ---
-title: "MJT"
+title: "Modern Javascript Tutorial"
 layout: archive
 permalink: categories/mjt
 author_profile: true
